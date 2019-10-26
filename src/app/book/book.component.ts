@@ -18,8 +18,8 @@ export class BookComponent implements OnInit {
 
   ngOnInit() {
     //// PREMIERE METHODE ///////
-    const id = this.route.snapshot.paramMap.get("id");
-    this.book = this.bookService.getBook(+id);
+    // const id = this.route.snapshot.paramMap.get("id");
+    // this.book = this.bookService.getBook(+id);
 
     //// DEUXIEME METHODE /////
     // this.route.paramMap
