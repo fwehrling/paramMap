@@ -1,0 +1,17 @@
+.menu-active {
+  background-color: blueviolet;
+  color: azure;
+}
+
+li {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: red;
+}

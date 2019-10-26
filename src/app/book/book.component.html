@@ -1,0 +1,7 @@
+<p>book works!</p>
+
+<!-- {{ book  | json }} -->
+{{ book | async | json }}
+
+<br /><br />
+<button (click)="previous()">Précédent</button> <button (click)="next()">Suivant</button>
